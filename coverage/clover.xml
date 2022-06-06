@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1654520784700" clover="3.2.0">
+  <project timestamp="1654520784700" name="All files">
+    <metrics statements="51" coveredstatements="51" conditionals="14" coveredconditionals="14" methods="9" coveredmethods="9" elements="74" coveredelements="74" complexity="0" loc="51" ncloc="51" packages="5" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="app.ts" path="C:\Users\Lorenzo\Documents\Proyectos\Fastify\src\app.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="12" coveredstatements="12" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="WeatherController.ts" path="C:\Users\Lorenzo\Documents\Proyectos\Fastify\src\controllers\WeatherController.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.plugins">
+      <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="cache.ts" path="C:\Users\Lorenzo\Documents\Proyectos\Fastify\src\plugins\cache.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\Lorenzo\Documents\Proyectos\Fastify\src\routes\index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="CityService.ts" path="C:\Users\Lorenzo\Documents\Proyectos\Fastify\src\services\CityService.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="WeatherService.ts" path="C:\Users\Lorenzo\Documents\Proyectos\Fastify\src\services\WeatherService.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

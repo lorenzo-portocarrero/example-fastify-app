@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es2020",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "sourceMap": true,
+    "allowJs": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true
+  },
+  "include": ["src/"]
+}
